@@ -17,3 +17,4 @@ variable:${OBJ}
 
 clean:
 	rm -rf *.o
+
