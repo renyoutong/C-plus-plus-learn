@@ -10,13 +10,62 @@ using namespace std;
 
 int main()
 {
-/*
- * 强制以小数，小数点后三位显示
-	cout << fixed;
-	cout << setprecision(3);
+	
 
-	double doubleNum = 100.0 / 3.0;
-	cout << doubleNum * 1000000 << endl;
+
+
+
+
+
+/*
+	const double price = 5400.0;
+	double guess_price;
+	int count = 0;
+
+	for(;;) {
+		cout << "请输入您猜的商品价格：";
+		cin >> guess_peice;
+		if (guess_price > 5400.0) {
+			cout << "您猜大了！" << endl;
+			count++;
+		} else if (guess_price < 5400.0) {
+			cout << "您猜小了！" << endl;
+			cout++;
+		} else{
+			cout << "恭喜您在"
+		}
+	}
+
+
+	//已知：1997年7月1日为星期二，请打印该月的日历
+	int day = 31;
+	int dayOfweek = 2;
+
+	cout << "一\t二\t三\t四\t五\t六\t七\n";
+	for(int i = 0; i < dayOfweek - 1; i++) {
+		cout << '\t';
+	}
+
+	for(int i = 1; i <= day; i++) {
+		cout << i;
+		if((i + dayOfweek - 1) % 7 == 0) {
+			cout << '\n';
+		} else {
+			cout << '\t';
+		}
+	}
+	cout << endl;
+
+
+
+
+
+	int sum = 0;
+	int count = 0;
+	for(int i = 1; i <= 100; i++){
+		sum += i;
+	}
+	cout << sum <<endl;
 */
 	return 0;
 }
