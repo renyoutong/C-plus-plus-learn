@@ -1,7 +1,7 @@
 #https://blog.csdn.net/zong596568821xp/article/details/81134406
 
 CC = g++
-TARGET = test
+TARGET = main.exe
 INCL = $(shell find . -name "*.h")
 SRC = $(shell find . -name "*.cpp")
 OBJ = $(SRC:%.cpp = %.o)
